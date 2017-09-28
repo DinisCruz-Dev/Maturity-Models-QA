@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - mocha > debug:
+        patched: '2017-09-28T01:25:09.151Z'
+    - electrium > mocha > debug:
+        patched: '2017-09-28T01:25:09.151Z'
+    - electrium > electron-prebuilt > extract-zip > debug:
+        patched: '2017-09-28T01:25:09.151Z'
+    - electrium > spectron > electron-chromedriver > extract-zip > debug:
+        patched: '2017-09-28T01:25:09.151Z'
