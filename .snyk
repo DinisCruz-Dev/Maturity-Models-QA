@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cheerio > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > archiver > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > inquirer > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > archiver > async > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > gaze > globule > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
+    - electrium > spectron > webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-07T02:39:59.337Z'
