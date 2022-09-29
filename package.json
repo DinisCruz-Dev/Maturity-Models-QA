@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register -- recursive test",
-    "test-perf": "mocha --compilers coffee:coffee-script/register -- recursive test-performance"
+    "test-perf": "mocha --compilers coffee:coffee-script/register -- recursive test-performance",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Dinis Cruz",
   "license": "ISC",
@@ -13,10 +15,12 @@
     "cheerio": "^0.20.0",
     "electrium": "0.0.7",
     "fluentnode": "^0.6.1",
-    "mocha": "^2.5.2"
+    "mocha": "^6.2.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "async": "^1.5.2",
     "jsdom": "^9.2.1"
-  }
+  },
+  "snyk": true
 }
