@@ -10,7 +10,7 @@
   "author": "Dinis Cruz",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^1.0.0",
     "electrium": "0.0.7",
     "fluentnode": "^0.6.1",
     "mocha": "^2.5.2"
